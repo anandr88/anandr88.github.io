@@ -956,9 +956,9 @@ document.addEventListener('DOMContentLoaded', function() {
       </div><!-- End Published Articles -->
 
       <!-- Book Chapter + Preprints -->
-      <div class="col-xl-6" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-xl-6 d-flex flex-column gap-4 align-self-start" data-aos="fade-up" data-aos-delay="200">
         <!-- Book Chapter -->
-        <div class="publication-card">
+        <div class="publication-card" style="height:auto; flex:0 0 auto;">
           <div class="publication-header">
             <div class="publication-icon">
               <i class="bi bi-book"></i>
@@ -968,11 +968,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
           <div class="publication-list">
             <div class="publication-item">
-              <div class="publication-badge journal">Royal Society of Chemistry &middot; Drug Discovery Series</div>
-              <h4 class="publication-title">Chapter 19: Machine Learning-based Methods for Designing Protein-based Drugs</h4>
-              <div class="publication-authors">Bajiya N, <strong>Rathore AS</strong>, Kumar N, Raghava GPS. In: <em>Machine Learning and Deep Learning in Drug Design</em> (eds. Roy K, Banerjee A), vol. 87, ch. 19, pp. 641&ndash;681. 2026 eBook collection, Professional Reference</div>
+              <div class="publication-badge journal">Royal Society of Chemistry</div>
+              <h4 class="publication-title">Machine Learning-based Methods for Designing Protein-based Drugs</h4>
+              <div class="publication-authors">Bajiya N, <strong>Rathore AS</strong>, Kumar N, Raghava GPS. <em>Drug Discovery Series</em>, ch. 19, pp. 641&ndash;681</div>
               <div class="publication-meta">
-                <span class="publication-year">22 Jul 2026</span>
+                <span class="publication-year">2026</span>
                 <span class="publication-status published">Published</span>
                 <a href="https://doi.org/10.1039/9781837070206-00641" target="_blank" class="publication-link">
                   <i class="bi bi-link"></i> DOI
@@ -983,7 +983,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div><!-- End Book Chapter -->
 
         <!-- Preprints card -->
-        <div class="publication-card mt-4">
+        <div class="publication-card" style="height:auto; flex:0 0 auto;">
           <div class="publication-header">
             <div class="publication-icon">
               <i class="bi bi-journal-text"></i>
@@ -1013,6 +1013,10 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 
 </section><!-- End Publications Section -->
+
+
+
+    
     <!-- Additional Info -->
     <div class="row mt-5" data-aos="fade-up" data-aos-delay="300">
       <div class="col-12">
